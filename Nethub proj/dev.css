@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: #000000;
+    color: #00ff57;
+    padding: 5rem 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: #00ff57;
+    text-align: center;
+}
+
+.container h1 {
+    padding-top: 0%;
+}
+.container p{
+    font-size: larger;
+    color: #14bdb5;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: auto;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid #35424a;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.smooth-edge-button {
+    background-color: #00ff57;
+    border: none;
+    color: #000000; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 0;
+    position: fixed;
+    bottom: 0; 
+}
+
+.email-input {
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+.number-input {
+    background-color: white;
+    color: #000000;
+}
+
+.text-input {
+    background-color: white;
+    color: #000000;
+}
+
+.name-input {
+    background-color: white;
+    color: #000000;
+}
+
+.message-input {
+    background-color: #345;
+    color: #000000;
+}
+
+@keyframes blink {
+    0% { background-color: #00ff57; }
+    50% { background-color: #35424a; }
+    100% { background-color: #00ff57; }
+  }
+  
+  .send-message-button:hover {
+    animation: blink 2s infinite;
+  }
+
+  .send-message-button {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #35424a;
+  }
+
+ .footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #000000;
+    background-color: #00ff57;
+    text-align: center;
+ }
+
+ .container_2 {
+    background-color: #000000;
+    color: #00ff57;
+    padding: 5rem 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-bottom: #00ff57;
+    text-align: center;
+}
+
+#newsletter {
+    background-color: #000000;
+    text-align: center;
+}
+
+.container_3 {
+    background-color: #000000;
+    color: #00ff57;
+    text-align: center;
+    padding: 5rem 0;
+    padding-bottom: 1cm;
+}
+
+.hero-btn {
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #ff0000;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #35424a;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute ;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 3px solid #14bdb5;
+    background: #00ff57;
+    transition: 2s;
+}
+
+html {
+    background-color: #000000;
+}
+
+.showcase p {
+    font-size: large;
+    color: #35424a;
+    font-size: 15px;
+
+}
+ 
+.smooth-edge-button {
+    background-color: cadetblue;
+    border: none;
+    color: #000000; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0;
+    box-shadow: 0 0 0 2px #000000 inset;
+    position:unset;
+    bottom: 0; 
+}
+
+  .smooth-edge-button:hover {
+    animation: blink 2s infinite;
+    background: cadetblue;
+    border: 1px solid #00ff57;
+    transition: 2s;
+  }
+
+  .hr {
+    width: fit-content;
+  }
